@@ -1,0 +1,170 @@
+﻿@model ML.Persona
+@{
+    ViewData["Title"] = "Add";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<h5>Formulario</h5>
+@using (Html.BeginForm("Add","Persona", FormMethod.Post, new { enctype = "multipart/form-data"}))
+{
+    <form name="frmDatos" onsubmit="return validarFormulario()">
+        <table>
+            <tr>
+                <td style="display:none;">Accion</td>
+                <td style="display:none;"><input name="Accion" type="text" value="Agregar" /></td>
+            </tr>
+            <tr>
+                <td style="display:none;">IdPersona</td>
+                <td style="display:none;"><input name="IdPersona" type="text" value="" /></td>
+            </tr>
+            <tr>
+                <td>Nombre</td>
+                <td><input name="Nombre" type="text" value="" id="txtNombre" /></td>
+            </tr>
+            <tr>
+                <td>Direccion</td>
+                <td><input name="Direccion" type="text" value="" id="txtDireccion" /></td>
+            </tr>
+            <tr>
+                <td>Edad</td>
+                <td><input name="Edad" type="text" value="" id="txtEdad"/></td>
+            </tr>
+            <tr>
+                <td>Correo</td>
+                <td><input name="Correo" type="text" value="" id="txtCorreo"/></td>
+            </tr>
+            <tr>
+                <td>Habilidad</td>
+                <td><input name="Habilidad" type="text" value="" id="txtHabilidad"/></td>
+            </tr>
+            @*<tr>
+                <td>Habilidad Secundaria</td>
+                <td><input name="txtHSecundaria" type="text" value="" /></td>
+            </tr>*@
+            <tr>
+                <td colspan=2><input type="submit" value="Submit" /></td>
+            </tr>
+        </table>
+    </form>
+}
+
+@section scripts{
+    <script type="text/javascript">
+
+        //function validarFormulario() {
+        //    // Obtener valores de los campos
+        //    var idPersona = $("#txtIdPersona").val();
+        //    //var nombre = frmDatos.Nombre.value;
+        //    var nombre = $("#txtNombre").val();
+        //    var direccion = $("#txtDireccion").val();
+        //    var edad = frmDatos.Edad.value;
+        //    var correo = frmDatos.Correo.value;
+        //    var habilidad = frmDatos.Habilidad.value;
+
+        //    // Validar campos vacíos
+        //    if (nombre == "" || direccion == "" || edad == "" || correo == "" || habilidad == "" ) {
+        //        alert("Todos los campos son obligatorios");
+        //        return false;
+        //    }
+
+        //    // Validar que no haya espacios en blanco
+        //    if (nombre.indexOf(' ') >= 0 || direccion.indexOf(' ') >= 0 || correo.indexOf(' ') >= 0 || habilidad.indexOf(' ') >= 0 ) {
+        //        alert("Los campos no pueden tener espacios en blanco");
+        //        return false;
+        //    }
+
+        //    // Validar que la edad sea un número entero entre 10 y 90
+        //    if (isNaN(edad) || parseInt(edad) < 10 || parseInt(edad) > 90) {
+        //        alert("La edad debe ser un número entero entre 10 y 90");
+        //        return false;
+        //    }
+
+        //    // Si se llega hasta aquí es que todo está correcto
+        //    return true;
+        //}
+
+        //$('#txtNombre' || '#txtDireccion' || '#txtEdad' || '#txtCorreo' || '#txtHabilidad').blur(function(){
+        //    if ($("#txtNombre").val() == "" || $("#txtDireccion").val() == "" || $("#txtEdad").val() == "" || $("#txtCorreo").val() == "" || $("#txtHabilidad").val() == "") {
+        //        alert("Todos los campos son obligatorios");
+        //        return false;
+        //    }
+        //});
+
+        $('#txtNombre').blur(function () {
+            if ($("#txtNombre").val() == "") {
+                alert("Todos los campos son obligatorios");
+                return false;
+            }
+        });
+
+        $('#txtDireccion').blur(function () {
+            if ($("#txtDireccion").val() == "") {
+                alert("Todos los campos son obligatorios");
+                return false;
+            }
+        });
+
+        $('#txtEdad').blur(function () {
+            if ($("#txtEdad").val() == "" ) {
+                alert("Todos los campos son obligatorios");
+                return false;
+            }
+        });
+
+        $('#txtCorreo').blur(function () {
+            if ($("#txtCorreo").val() == "") {
+                alert("Todos los campos son obligatorios");
+                return false;
+            }
+        });
+
+        $('#txtHabilidad').blur(function () {
+            if ($("#txtHabilidad").val() == "") {
+                alert("Todos los campos son obligatorios");
+                return false;
+            }
+        });
+
+        //$('#txtNombre' || '#txtDireccion' || '#txtCorreo' || '#txtHabilidad').blur(function () {
+        //    if ($("#txtNombre").val(' ') >= 0 || $("#txtDireccion").val(' ') >= 0 || $("#txtCorreo").val(' ') >= 0 || $("#txtHabilidad").val(' ') >= 0) {
+        //        alert("Los campos no pueden tener espacios en blanco");
+        //        return false;
+        //    }
+        //});
+
+        $('#txtNombre').blur(function () {
+            if ($("#txtNombre").val() == " ") {
+                alert("Los campos no pueden tener espacios en blanco");
+                return false;
+            }
+        });
+
+        $('#txtDireccion').blur(function () {
+            if ($("#txtDireccion").val() == " ") {
+                alert("Los campos no pueden tener espacios en blanco");
+                return false;
+            }
+        });
+
+        $('#txtCorreo').blur(function () {
+            if ($("#txtCorreo").val() == " ") {
+                alert("Los campos no pueden tener espacios en blanco");
+                return false;
+            }
+        });
+
+        $('#txtHabilidad').blur(function () {
+            if ($("#txtHabilidad").val() == " ") {
+                alert("Los campos no pueden tener espacios en blanco");
+                return false;
+            }
+        });
+
+        $('#txtEdad').blur(function () {
+            if (isNaN($("#txtEdad").val()) || parseInt($("#txtEdad").val()) < 10 || parseInt($("#txtEdad").val()) > 90) {
+                alert("La edad debe ser un número entero entre 10 y 90");
+                return false;
+            }
+        });
+    </script>
+}
+

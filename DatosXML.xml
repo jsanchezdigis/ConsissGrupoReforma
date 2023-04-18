@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<noticias horaPubl="1415290902">
+	<noticia tipo="4">
+		<libre>0</libre>
+		<id>3</id>
+		<categoria>Templo Mayor Por F. Bartolomé</categoria>
+		<titulo>De Lunes a Viernes escúchalo donde quieras.</titulo>
+		<resumen>Descarga de lunes a viernes el editorial de Reforma sobre diversos temas de política nacional.</resumen>
+		<prevurl>117PodINCC.jpg</prevurl>
+		<url>20141106_3.mp3</url>
+		<is3idfp>DesarrolloWebREF_98</is3idfp>
+		<idaudio>13882</idaudio>
+	</noticia>
+
+	<noticia tipo="4">
+		<libre>0</libre>
+		<id>106</id>
+		<categoria>San Cadilla</categoria>
+		<titulo>Los secretos del futbol.</titulo>
+		<resumen>Descarga de lunes a viernes el editorial de Cancha dedicado a lo que sucede detrás del deporte más popular del mundo.</resumen>
+		<prevurl>67PodINCC.jpg</prevurl>
+		<url>20141106_106.mp3</url>
+		<is3idfp>DesarrolloWebREF_16</is3idfp>
+		<idaudio>13883</idaudio>
+	</noticia>
+	<noticia tipo="4">
+		<libre>0</libre>
+		<id>40</id>
+		<categoria>NFL con Fernando Von Rossum</categoria>
+		<titulo>En esta emisión: la semana 10.</titulo>
+		<resumen>Escucha los comentarios, análisis y pronósticos de Fernando Von Rossum, sobre la temporada 2014-2015 de la NFL.</resumen>
+		<prevurl>99PodINCC.jpg</prevurl>
+		<url>20141106_40.mp3</url>
+		<is3idfp>DesarrolloWebREF_20</is3idfp>
+		<idaudio>13880</idaudio>
+	</noticia>
+	<noticia tipo="4">
+		<libre>0</libre>
+		<id>125</id>
+		<categoria>Mr. Fórmula 1</categoria>
+		<titulo>Acelérate con el análisis de la Máxima categoría del automovilismo. En esta emisión: el GP de Brasil.</titulo>
+		<resumen>Cada jueves descarga los comentarios de Jo Ramírez, quien te llevará los secretos y la información más destacada desde los lugares en donde se llevan a cabo las competencias.</resumen>
+		<prevurl>55PodINCC.jpg</prevurl>
+		<url>20141106_125.mp3</url>
+		<is3idfp>DesarrolloWebREF_21</is3idfp>
+		<idaudio>13881</idaudio>
+	</noticia>
+	<noticia tipo="4">
+		<libre>0</libre>
+		<id>38</id>
+		<categoria>Pasaporte Gourmet</categoria>
+		<titulo>Esta semana: las mejores cafeterías de la Ciudad.</titulo>
+		<resumen>Descarga cada miércoles consejos, tips y sugerencias acerca del buen comer y el buen beber.</resumen>
+		<prevurl>388PodINCC.jpg</prevurl>
+		<url>20141105_38.mp3</url>
+		<is3idfp>DesarrolloWebREF_100</is3idfp>
+		<idaudio>13877</idaudio>
+	</noticia>
+	<noticia tipo="4">
+		<libre>0</libre>
+		<id>98</id>
+		<categoria>Sin límite de tiempo</categoria>
+		<titulo>Lo mejor de la lucha libre nacional e internacional. En esta emisión: L.A. Park reta al CMLL.</titulo>
+		<resumen>Descarga todos los miércoles la historia, noticias, agenda de eventos y trivias de lo más destacado del pancracio.</resumen>
+		<prevurl>394PodINCC.jpg</prevurl>
+		<url>20141105_98.mp3</url>
+		<is3idfp>DesarrolloWebREF_19</is3idfp>
+		<idaudio>13876</idaudio>
+	</noticia>
+	<noticia tipo="4">
+		<libre>0</libre>
+		<id>77</id>
+		<categoria>Consultorio Financiero</categoria>
+		<titulo>Esta semana: ¿Cuántas tarjetas son demasiadas?</titulo>
+		<resumen>Descarga las opiniones de expertos en créditos, afores, impuestos, vivienda, consumo e inversiones, quienes te hablarán de lo que te interesa a ti como consumidor.</resumen>
+		<prevurl>85PodINCC.jpg</prevurl>
+		<url>20141103_77.mp3</url>
+		<is3idfp>DesarrolloWebREF_99</is3idfp>
+		<idaudio>13873</idaudio>
+	</noticia>
+	<noticia tipo="4">
+		<libre>0</libre>
+		<id>52</id>
+		<categoria>Apunte táctico con Francisco Javier González</categoria>
+		<titulo>En esta ocasión: el análisis sobre el calendario del América en lo que resta de torneo y el Clásico Nacional ante Chivas.</titulo>
+		<resumen>Descarga cada lunes los apuntes, estrategias y el análisis de lo más destacado del futbol mexicano e internacional.</resumen>
+		<prevurl>93PodINCC.jpg</prevurl>
+		<url>20141103_52.mp3</url>
+		<is3idfp>DesarrolloWebREF_17</is3idfp>
+		<idaudio>13868</idaudio>
+	</noticia>
+	<noticia tipo="4">
+		<libre>0</libre>
+		<id>132</id>
+		<categoria>El ojo crítico</categoria>
+		<titulo>Escucha el análisis del arbitraje del futbol nacional e internacional en voz de Bonifacio Núñez.</titulo>
+		<resumen>Cada lunes descarga este Podcast y escucha a nuestro especialista con sus comentarios del arbitraje.</resumen>
+		<prevurl>61PodINCC.jpg</prevurl>
+		<url>20141103_132.mp3</url>
+		<is3idfp>DesarrolloWebREF_18</is3idfp>
+		<idaudio>13870</idaudio>
+	</noticia>
+	<noticia tipo="4">
+		<libre>0</libre>
+		<id>27</id>
+		<categoria>Futbol en voz de Roberto Gómez Junco</categoria>
+		<titulo>En esta emisión: la Jornada 15 del Apertura 2014.</titulo>
+		<resumen>Descarga todos los viernes las notas previas a cada Jornada del futbol en voz de un experto, Roberto Gómez Junco.</resumen>
+		<prevurl>111PodINCC.jpg</prevurl>
+		<url>20141031_27.mp3</url>
+		<is3idfp>DesarrolloWebREF_15</is3idfp>
+		<idaudio>13864</idaudio>
+	</noticia>
+	<noticia tipo="4">
+		<libre>0</libre>
+		<id>90</id>
+		<categoria>Sommeliers para llevar</categoria>
+		<titulo>Charlas de vinos. En esta emisión: un maridaje de Día de Muertos.</titulo>
+		<resumen>Escucha todos los viernes, entrevistas, consejos y recomendaciones en voz de dos expertas sommeliers, Georgina Estrada y  Pilar Meré.</resumen>
+		<prevurl>79PodINCC.jpg</prevurl>
+		<url>20141031_90.mp3</url>
+		<is3idfp>DesarrolloWebREF_101</is3idfp>
+		<idaudio>13863</idaudio>
+	</noticia>
+</noticias>
